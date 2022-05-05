@@ -26,6 +26,7 @@
     height: 100%;
     background-color: #4B6982;
 
+
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -134,12 +135,12 @@
 }
 
 .gap {
-    padding-bottom: 2rem;
+    padding-top: 0px
 }
 
 .about-me-contents {
-    font-size: 18px;
-    color: #e4dede;
+    font-size: 20px;
+    color: #fffffff1;
 
 }
 
@@ -149,8 +150,8 @@
     padding: 32px;
     background-color: #828d91;
     border-radius: 28px;
-
-    margin: 25px;
+    margin-bottom: 45px;
+    margin-inline: 25px;
     display: grid;
 
 
@@ -176,7 +177,7 @@
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     gap: 20px;
-    
+
     color: #F1F8FD;
 }
 
@@ -213,4 +214,29 @@
     display: grid;
     align-content: space-around;
 
+}
+
+.exp-right {
+    border-left: 3px solid rgb(33, 117, 202);
+    padding-left: 5px;
+}
+
+/* Formação academica */
+
+.education {
+    padding: 32px;
+    background-color: #828d91;
+    border-radius: 28px;
+    margin: 25px;
+}
+
+.education .right-title {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0d1f3a;
+    margin-bottom: 25px;
+}
+
+.education-right {
+    border-left: 3px solid rgb(33, 117, 202);
+    padding-left: 5px;
 }
