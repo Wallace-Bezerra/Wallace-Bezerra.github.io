@@ -127,8 +127,9 @@
 }
 
 .right-title {
-    color: #5bceeb;
+    color: #ffda07;
     font-size: 40px;
+    text-shadow: 2px 2px #1b1818;
     margin-bottom: 10px;
 }
 
@@ -139,5 +140,77 @@
 .about-me-contents {
     font-size: 18px;
     color: #e4dede;
+
+}
+
+/* experiencia  */
+
+.experience {
+    padding: 32px;
+    background-color: #828d91;
+    border-radius: 28px;
+
+    margin: 25px;
+    display: grid;
+
+
+}
+
+.right-tile {
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 40px;
+    color: #ffda07;
+    text-shadow: 2px 2px #1b1818;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0d1f3a;
+}
+
+
+
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    gap: 20px;
+    
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+/* testes */
+
+.exp-left {
+
+    display: grid;
+    align-content: space-around;
 
 }
