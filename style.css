@@ -146,7 +146,7 @@
 
 /* experiencia  */
 
-.experience {
+.experience, .awards {
     padding: 32px;
     background-color: #828d91;
     border-radius: 28px;
@@ -219,6 +219,8 @@
 .exp-right {
     border-left: 3px solid rgb(33, 117, 202);
     padding-left: 5px;
+    display: grid;
+    gap: 10px;
 }
 
 /* Formação academica */
@@ -230,13 +232,45 @@
     margin: 25px;
 }
 
-.education .right-title {
+.right-title {
     padding-bottom: 5px;
     border-bottom: 2px solid #0d1f3a;
     margin-bottom: 25px;
 }
 
+.education-left{
+    display: grid;
+    gap: 10px;
+}
+
 .education-right {
     border-left: 3px solid rgb(33, 117, 202);
     padding-left: 5px;
+    display: grid;
+    gap: 10px;
+}
+
+.awards-right{
+    border-left: 3px solid rgb(33, 117, 202);
+    padding-left: 5px;
+    display: grid;
+    gap: 10px;
+}
+
+.awards-name{
+    /* padding-right: 10px; */
+    
+}
+
+.awards-contents{
+    gap: 10px;
+}
+
+.awards-left{
+    display: grid;
+    gap: 5px;
+}
+
+.awards{
+    margin-top: 45px;
 }
