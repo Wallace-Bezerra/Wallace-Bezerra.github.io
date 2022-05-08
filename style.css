@@ -93,9 +93,9 @@
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
-    font-size: 18px;
-    color: #eeeeee;
+    /* padding-right: 1rem; */
+    font-size: 20px;
+    color: #6ea1ca;
 }
 
 .skills {
@@ -113,6 +113,7 @@
 
 .skills-title {
     color: #ffda07;
+    font-size: 20px;
 }
 
 .skills ul li {
@@ -273,4 +274,25 @@
 
 .awards{
     margin-top: 45px;
+}
+
+/* icones */
+.contact-info li{
+    display: grid;
+    grid-template-columns: auto 215px;
+    gap: 10px;
+    text-align:start;
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+}
+i{
+    color: #0d1f3a;
+
+
 }
